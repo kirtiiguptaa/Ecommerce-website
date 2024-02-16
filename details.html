@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <!--=============== FONTAWSOME ===============-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+     <!--=============== SWIPER CSS ===============-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+ 
+     <!--=============== FAVICON ===============-->
+     <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+ 
+     <!--=============== CSS ===============-->
+     <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header_top">
+        <div class="header_container container">
+          <div class="header_contact">
+            <span>(+91) 99999 99999</span>
+            <span>Our Location</span>
+          </div>
+          <p class="header_alert-news">
+            Super Value Deals - Save more with coupons
+          </p>
+          <a href="login-register.html" class="header_top-action">
+            Log In / Sign Up
+          </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav_logo">
+          <img src="assets/img/logo.svg" alt="" class="nav_logo-img">
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="shop.html" class="nav_link">Shop</a>
+            </li>
+            <li class="nav_item">
+              <a href="accounts.html" class="nav_link">My Account</a>
+            </li>
+            <li class="nav_item">
+              <a href="compare.html" class="nav_link">Compare</a>
+            </li>
+            <li class="nav_item">
+              <a href="login-register.html" class="nav_link">Login</a>
+            </li>
+          </ul>
+          <div class="header_search">
+            <input type="text" placeholder="Search for items..." class="form_input">
+            <button class="search_btn">
+              <img src="assets/img/search.png" alt="">
+            </button>
+          </div>
+        </div>
+
+        <div class="header_user-actions">
+          <a href="wishlist.html" class="header_action-btn">
+            <img src="assets/img/icon-heart.svg" alt="">
+            <span class="count">3</span>
+          </a>
+          <a href="cart.html" class="header_action-btn">
+            <img src="assets/img/icon-cart.svg" alt="">
+            <span class="count">3</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BREADCRUMB ===============-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb_list flex container">
+          <li><a href="index.html" class="breadcrumb_link">Home</a></li>
+          <li><span class="breadcrumb_link">></span></li>
+          <li><span class="breadcrumb_link">Fashion</span></li>
+          <li><span class="breadcrumb_link">></span></li>
+          <li><span class="breadcrumb_link">Henley Shirt</span></li>
+        </ul>
+      </section>
+
+      <!--=============== DETAILS ===============-->
+      <section class="details section-lg">
+        <div class="details_container container grid">
+          <div class="details_group">
+            <img src="assets/img/product-8-1.jpg" alt="" class="details_img">
+
+            <div class="details_small-images grid">
+              <img src="assets/img/product-8-2.jpg" alt="" class="details_small-img">
+
+              <img src="assets/img/product-8-1.jpg" alt="" class="details_small-img">
+
+              <img src="assets/img/product-8-2.jpg" alt="" class="details_small-img">
+            </div>
+          </div>
+
+          <div class="details_group">
+            <h3 class="details_title">Henley Shirt</h3>
+            <p class="details_brand">Brands: <span>Adidas</span></p>
+
+            <div class="details_price flex">
+              <span class="new_price">₹2999</span>
+              <span class="old_price">₹3999</span>
+              <span class="save_price">25% Off</span>
+            </div>
+
+            <p class="short_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores fugit at temporibus id ducimus ex. Quidem, hic ducimus. Ex commodi beatae officia aliquam distinctio aliquid hic ducimus ad neque!
+            </p>
+
+            <ul class="product_list">
+              <li class="list_item flex">
+                <i class="fa-solid fa-crown"></i>
+                1 Year Brand Warranty
+              </li>
+
+              <li class="list_item flex">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                30 days Return Policy
+              </li>
+
+              <li class="list_item flex">
+                <i class="fa-solid fa-credit-card"></i>
+                Cash On Delivery Available
+              </li>
+            </ul>
+
+            <div class="details_color flex">
+              <span class="details_color-title">Color</span>
+
+              <ul class="color_list">
+                <li>
+                  <a href="#" class="color_link" style="background-color: hsl(37, 100%, 65%);"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="color_link" style="background-color: hsl(353, 100%, 67%);"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="color_link" style="background-color: hsl(49, 100%, 60%);"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="color_link" style="background-color: hsl(304, 100%, 78%);"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="color_link" style="background-color: hsl(126, 61%, 52%);"></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="details_size flex">
+              <span class="details_size-title">Size</span>
+
+              <ul class="size_list">
+                <li>
+                  <a href="#" class="size_link size-active" data-target="#s">S</a>
+                </li>
+
+                <li>
+                  <a href="#" class="size_link" data-target="#m">M</a>
+                </li>
+
+                <li>
+                  <a href="#" class="size_link" data-target="#l">L</a>
+                </li>
+
+                <li>
+                  <a href="#" class="size_link" data-target="#xl">XL</a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="details_action">
+              <input type="number" class="quantity" value="3">
+
+              <a href="#" class="btn btn-sm">Add to Cart</a>
+
+              <a href="#" class="details_action-btn">
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </div>
+
+            <ul class="details_meta">
+              <li class="meta_list flex"><span>SKU:</span> FWM17VKL</li>
+              <li class="meta_list flex"><span>Tags:</span> Cloth, Women, Dress</li>
+              <li class="meta_list flex"><span>Availability:</span> 8 Items in Stock</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== DETAILS TAB ===============-->
+      <section class="details__tab container">
+        <div class="detail_tabs">
+          <span class="detail_tab active-tab" data-target="#info">
+            Product Info
+          </span>
+          <span class="detail_tab" data-target="#reviews">
+            Reviews(5)
+          </span>
+        </div>
+
+        <div class="detail_tabs-content">
+          <div class="detail_tab-content active-tab" content id="info">
+            <table class="info_table">
+
+              <tr>
+                <th>Fabric Composition</th>
+                <td>Cotton Blend</td>
+              </tr>
+
+              <tr>
+                <th>Style Code</th>
+                <td>NVK--MAND</td>
+              </tr>
+
+              <tr>
+                <th>Closure</th>
+                <td>Button</td>
+              </tr>
+
+              <tr>
+                <th>Fit</th>
+                <td>Slim</td>
+              </tr>
+
+              <tr>
+                <th>Sleeve</th>
+                <td>Full Sleeve</td>
+              </tr>
+
+              <tr>
+                <th>Pattern</th>
+                <td>Solid</td>
+              </tr>
+
+              <tr>
+                <th>Reversible</th>
+                <td>No</td>
+              </tr>
+
+              <tr>
+                <th>Collar</th>
+                <td>Mandarin</td>
+              </tr>
+
+              <tr>
+                <th>Color</th>
+                <td>Multicolor</td>
+              </tr>
+
+              <tr>
+                <th>Fabric Care</th>
+                <td>Regular Machine Wash, Hand wash</td>
+              </tr>
+
+              <tr>
+                <th>Suitable For</th>
+                <td>Western Wear</td>
+              </tr>
+
+              <tr>
+                <th>Hem</th>
+                <td>Curved</td>
+              </tr>
+
+              <tr>
+                <th>Net Quantity</th>
+                <td>1</td>
+              </tr>
+
+              <tr>
+                <th>Size</th>
+                <td>S, M, L, XL</td>
+              </tr>
+
+            </table>
+          </div>
+
+          <div class="detail_tab-content" content id="reviews">
+            <div class="reviews_container grid">
+              <div class="review_single">
+                <div>
+                  <img src="assets/img/avatar-1.jpg" alt="" class="review_img">
+                  <h4 class="review_title">Jacky Chan</h4>
+                </div>
+
+                <div class="review_data">
+                  <div class="review_rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <p class="review_description">Thank you very fast shipping in only 3 days</p>
+
+                  <span class="review_date">January18, 2024 at 3:12 pm</span>
+                </div>
+              </div>
+
+              <div class="review_single">
+                <div>
+                  <img src="assets/img/avatar-2.jpg" alt="" class="review_img">
+                  <h4 class="review_title">Natania</h4>
+                </div>
+
+                <div class="review_data">
+                  <div class="review_rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+
+                  <p class="review_description">Great low price and looks well</p>
+
+                  <span class="review_date">January27, 2024 at 1:52 pm</span>
+                </div>
+              </div>
+
+              <div class="review_single">
+                <div>
+                  <img src="assets/img/avatar-3.jpg" alt="" class="review_img">
+                  <h4 class="review_title">Emile Doe</h4>
+                </div>
+
+                <div class="review_data">
+                  <div class="review_rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <p class="review_description">Authentic and Beautiful, Love these way more than expected</p>
+
+                  <span class="review_date">December12, 2023 at 7:29 pm</span>
+                </div>
+              </div>
+
+              <div class="review_single">
+                <div>
+                  <img src="assets/img/avatar-4.jpg" alt="" class="review_img">
+                  <h4 class="review_title">Michael</h4>
+                </div>
+
+                <div class="review_data">
+                  <div class="review_rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <p class="review_description">The quality of material is good. Overall awesomeness goes for it</p>
+
+                  <span class="review_date">January4, 2024 at 11:35 am</span>
+                </div>
+              </div>
+
+              <div class="review_single">
+                <div>
+                  <img src="assets/img/avatar-5.jpg" alt="" class="review_img">
+                  <h4 class="review_title">Aashna</h4>
+                </div>
+
+                <div class="review_data">
+                  <div class="review_rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+
+                  <p class="review_description">Excellent material and outstanding fabric. I highly recommend this growing brand!!</p>
+
+                  <span class="review_date">November24, 2023 at 5:55 pm</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="review_form">
+              <h4 class="review_form-title">Add a Review</h4>
+
+              <div class="rate_product">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <form action="" class="form grid">
+                <textarea class="form_input textarea" placeholder="Write comment"></textarea>
+
+                <div class="form_group grid">
+                  <input type="text" placeholder="Name" class="form_input">
+                  <input type="email" placeholder="Email" class="form_input">
+                </div>
+                <div class="form_btn">
+                  <button class="btn">Submit review</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products container section-lg">
+        <h3 class="section_title"><span>Related</span> Products</h3>
+
+        <div class="products_container grid">
+              <div class="product_item">
+                <div class="product_banner">
+                  <a href="details.html" class="product_images">
+                    <img src="assets/img/product-1-1.jpg" alt="" class="product_img default">
+
+                    <img src="assets/img/product-1-2.jpg" alt="" class="product_img hover">
+                  </a>
+
+                  <div class="product_actions">
+                    <a href="#" class="action_btn" aria-label="Quick View">
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+
+                    <a href="#" class="action_btn" aria-label="Add to Wishlist">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+
+                    <a href="#" class="action_btn" aria-label="Compare">
+                      <i class="fa-solid fa-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product_badge light-pink">Hot</div>
+                </div>
+
+                <div class="product_content">
+                  <span class="product_category">Clothing</span>
+                  <a href="details.html">
+                    <h3 class="product_title">Colourful Pattern Shirt</h3>
+                  </a>
+                  <div class="product_rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product_price flex">
+                    <span class="new_price">₹2999</span>
+                    <span class="old_price">₹3999</span>
+                  </div>
+
+                  <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product_item">
+                <div class="product_banner">
+                  <a href="details.html" class="product_images">
+                    <img src="assets/img/product-2-1.jpg" alt="" class="product_img default">
+
+                    <img src="assets/img/product-2-2.jpg" alt="" class="product_img hover">
+                  </a>
+
+                  <div class="product_actions">
+                    <a href="#" class="action_btn" aria-label="Quick View">
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+
+                    <a href="#" class="action_btn" aria-label="Add to Wishlist">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+
+                    <a href="#" class="action_btn" aria-label="Compare">
+                      <i class="fa-solid fa-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product_badge light-green">Hot</div>
+                </div>
+
+                <div class="product_content">
+                  <span class="product_category">Clothing</span>
+                  <a href="details.html">
+                    <h3 class="product_title">Colourful Pattern Shirt</h3>
+                  </a>
+                  <div class="product_rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product_price flex">
+                    <span class="new_price">₹2999</span>
+                    <span class="old_price">₹3999</span>
+                  </div>
+
+                  <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product_item">
+                <div class="product_banner">
+                  <a href="details.html" class="product_images">
+                    <img src="assets/img/product-6-1.jpg" alt="" class="product_img default">
+
+                    <img src="assets/img/product-6-2.jpg" alt="" class="product_img hover">
+                  </a>
+
+                  <div class="product_actions">
+                    <a href="#" class="action_btn" aria-label="Quick View">
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+
+                    <a href="#" class="action_btn" aria-label="Add to Wishlist">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+
+                    <a href="#" class="action_btn" aria-label="Compare">
+                      <i class="fa-solid fa-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product_badge light-pink">-22%</div>
+                </div>
+
+                <div class="product_content">
+                  <span class="product_category">Clothing</span>
+                  <a href="details.html">
+                    <h3 class="product_title">Colourful Pattern Shirt</h3>
+                  </a>
+                  <div class="product_rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product_price flex">
+                    <span class="new_price">₹2999</span>
+                    <span class="old_price">₹3999</span>
+                  </div>
+
+                  <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product_item">
+                <div class="product_banner">
+                  <a href="details.html" class="product_images">
+                    <img src="assets/img/product-7-1.jpg" alt="" class="product_img default">
+
+                    <img src="assets/img/product-7-2.jpg" alt="" class="product_img hover">
+                  </a>
+
+                  <div class="product_actions">
+                    <a href="#" class="action_btn" aria-label="Quick View">
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+
+                    <a href="#" class="action_btn" aria-label="Add to Wishlist">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+
+                    <a href="#" class="action_btn" aria-label="Compare">
+                      <i class="fa-solid fa-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product_badge light-green">Hot</div>
+                </div>
+
+                <div class="product_content">
+                  <span class="product_category">Clothing</span>
+                  <a href="details.html">
+                    <h3 class="product_title">Colourful Pattern Shirt</h3>
+                  </a>
+                  <div class="product_rating">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <div class="product_price flex">
+                    <span class="new_price">₹2999</span>
+                    <span class="old_price">₹3999</span>
+                  </div>
+
+                  <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section">
+        <div class="newsletter_container container grid">
+          <h3 class="newsletter_title flex">
+            <img src="assets/img/icon-email.svg" alt="" class="newsletter_icon">
+            Sign up to Newsletter
+          </h3>
+
+          <p class="newsletter_description">...and recieve ₹500 coupon for first shopping</p>
+
+          <form action="" class="newsletter_form">
+            <input type="email" class="newsletter_input" placeholder="Enter your email">
+            <button type="submit" class="newsletter_btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer_container grid">
+        <div class="footer_content">
+          <a href="index.html" class="footer_logo">
+            <img src="assets/img/logo.svg" alt="" class="footer_logo-img">
+          </a>
+
+          <h4 class="footer_subtitle">Contact</h4>
+
+          <p class="footer_description">
+            <span>Address:</span> 243 Wellington Road, Street 14, India
+          </p>
+
+          <p class="footer_description">
+            <span>Phone:</span> (+91) 99999 99999 / (+91) 99999 00000
+          </p>
+
+          <p class="footer_description">
+            <span>Hours:</span> 10AM - 6PM, Mon - Sat 
+          </p>
+
+          <div class="footer_socials">
+            <h4 class="footer_subtitle">Follow Me</h4>
+
+            <div class="footer_social-links flex">
+              <a href="">
+                <img src="assets/img/icon-facebook.svg" alt="" class="footer_social-icon">
+              </a>
+
+              <a href="">
+                <img src="assets/img/x-twitter.svg" alt="" class="footer_social-icon">
+              </a>
+
+              <a href="">
+                <img src="assets/img/icon-instagram.svg" alt="" class="footer_social-icon">
+              </a>
+
+              <a href="">
+                <img src="assets/img/icon-pinterest.svg" alt="" class="footer_social-icon">
+              </a>
+
+              <a href="">
+                <img src="assets/img/icon-youtube.svg" alt="" class="footer_social-icon">
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Address</h3>
+
+          <ul class="footer_links">
+            <li><a href="#" class="footer_link">About Us</a></li>
+            <li><a href="#" class="footer_link">Delivery Information</a></li>
+            <li><a href="#" class="footer_link">Privacy Policy</a></li>
+            <li><a href="#" class="footer_link">Terms & Conditions</a></li>
+            <li><a href="#" class="footer_link">Contact Us</a></li>
+            <li><a href="#" class="footer_link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">My Account</h3>
+
+          <ul class="footer_links">
+            <li><a href="#" class="footer_link">Sign In</a></li>
+            <li><a href="#" class="footer_link">View Cart</a></li>
+            <li><a href="#" class="footer_link">My Wishlist</a></li>
+            <li><a href="#" class="footer_link">Track My Order</a></li>
+            <li><a href="#" class="footer_link">Help</a></li>
+            <li><a href="#" class="footer_link">Orders</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Secured Payment Gateways</h3>
+
+          <img src="assets/img/payment-method.png" alt="" class="payment_img">
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <p class="copyright"> &copy; 2024 Evara. All rights reserved</p>
+        <span class="designer">Designed by Kirti</span>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
